@@ -1,0 +1,54 @@
+body{background-color: rgb(153, 63, 238);
+    margin: 0%;
+    
+    
+}
+h1{color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+img{
+    width: 400px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+@media screen and (max-width:480px){
+    h1{
+        font-size: 20px;
+        color: aqua
+        
+    }
+}
+@media screen and (max-width:480px){
+    
+    img{max-width: 70%;}
+    
+    body{
+        background-color: rgba(148, 78, 189, 0.651)
+    }
+    
+}
+@media only screen and (max-width:568px){
+    body{
+        background-color: rgba(42, 13, 170, 0.877)
+    }
+}
+@media  (max-width:1200px){
+    h1{  font-size:20px }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
